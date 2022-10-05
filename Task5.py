@@ -8,7 +8,6 @@ k = int(input('Введите число: '))
 fib = [0, 1]
 for i in range(k - 1):
     fib.append(fib[-1] + fib[-2])
-    # print(fib)
 neg_fib = [0, 1]
 for n in range(k - 1):
     neg_fib.append(neg_fib[-2] - neg_fib[-1])
